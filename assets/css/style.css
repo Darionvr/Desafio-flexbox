@@ -65,7 +65,7 @@ body {
 }
 
 .iconos{
-    color: #828485;
+   
     margin-top: auto;
     margin-bottom: auto;
     display: flex;
@@ -74,7 +74,9 @@ body {
 .iconos i{
     margin: 5px;
 }
-
+.iconos a{
+    color: #828485;
+}
 .usuario img{
     border-radius: 100%;
     padding: 10px;
@@ -89,12 +91,12 @@ body {
     
 }
 .estado p{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 90%;
 }
 .estado span{
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 400;
     color: #828485
 
@@ -151,12 +153,12 @@ button{
 
 .amigos p{
     flex-grow: 1;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 500;
-    line-height: 90%;
+    
 
 }
 .amigos span{
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
 }
