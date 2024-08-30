@@ -1,0 +1,162 @@
+body {
+    font-family: Open Sans;
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    
+    
+}
+
+
+/* Sección Chat */
+.chat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.hero{
+    
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.chat img {
+    width: 45%;
+   
+}
+
+.chat h1 {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.chat p{
+    font-size: 20px;
+    margin: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* Sección Contactos*/
+
+.contactos {
+    width: 25%;
+    border-right: 2px solid #bec1bb;
+    
+    
+}
+
+.usuario{
+    display: flex;
+    
+    align-content: center;
+    height: 8%;
+    justify-content: space-between;
+    border-bottom: 2px solid #bec1bb;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.iconos{
+    color: #828485;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+}
+
+.iconos i{
+    margin: 5px;
+}
+
+.usuario img{
+    border-radius: 100%;
+    padding: 10px;
+    width: 50px;
+    height:fit-content;
+    
+}
+
+.estado{
+    display: flex;
+    
+    
+}
+.estado p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 90%;
+}
+.estado span{
+    font-size: 12px;
+    font-weight: 400;
+    color: #828485
+
+}
+
+/* Botón Nuevo Chat */
+
+
+.nuevo-chat{
+    border-bottom: 2px solid #bec1bb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    
+}
+
+button{
+    background-color: #a491d2;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 15px;
+    width: 200px;
+    height: 50px;
+    font-family: open sans;
+}
+
+
+
+
+/* Lista de Amigos */
+
+.amigos{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 10%;
+    border-bottom: 2px solid #bec1bb;
+
+}
+.amigos img{
+    
+    padding: 15px;
+    border-radius: 100%;
+    width: 50px;
+    height: fit-content;
+
+    
+    
+}
+
+.amigos p{
+    flex-grow: 1;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 90%;
+
+}
+.amigos span{
+    font-size: 12px;
+    font-weight: 400;
+}
